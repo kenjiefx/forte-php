@@ -1,0 +1,13 @@
+#!/usr/bin/php
+<?php
+
+use Kenjiefx\Forte\Command\Install;
+use Symfony\Component\Console\Application;
+
+require __dir__.'/vendor/autoload.php';
+if (php_sapi_name() !== 'cli') exit;
+define('ROOT',__dir__);
+
+$application = new Application();
+$application->add(new Install());
+$application->run();

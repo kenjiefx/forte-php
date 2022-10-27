@@ -1,0 +1,1 @@
+{"name":"kenjiefx\/forte","description":"Just because I don't want to pay Private Packagist","type":"library","license":"MIT","autoload":{"psr-4":{"Kenjiefx\\Forte\\":"src\/","Plunk\\Jwt\\":"vendor\/plunk\/jwt\/src\/"}},"authors":[{"name":"kenjiefx","email":"terradoflex@gmail.com"}],"minimum-stability":"dev","require":{"symfony\/console":"6.2.x-dev"}}
